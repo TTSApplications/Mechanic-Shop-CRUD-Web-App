@@ -1,0 +1,51 @@
+/* Typography */
+
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 300;
+    min-height: 100vh;
+    background-image: var(--bs-gradient);
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Patua One', serif;
+}
+
+.card a{
+    text-decoration: none!important;
+    color: black!important;
+    background-image: var(--bs-gradient);
+}
+
+.icons_container a{
+    text-decoration: none!important;
+    color: black!important;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: grey;
+}
+
+
+.carousel-dark .carousel-caption {
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.sticky-footer {
+  position: relative;
+  top: 100%
+} 
+
+/* Hero */
+
+#hero{
+    background-image: url(../img/quantumComputer.jpg);
+    background-size: cover;
+    background-position: 50% 30%;
+    background-blend-mode: multiply;
+}
+
+#cs #hero{
+    background-image: url(../img/csBanner.jpg);
+}
